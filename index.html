@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exploring layout boxes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Layouts</h1></header>
+        <nav>
+            <ul>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#list1">Lists</a></li>
+                <li><a href="#divs">Divs</a></li>
+            </ul>
+        </nav>
+        <h2 id="images">In line photos</h2>
+
+        <h2>Default layout for images</h2>
+        <img src="nessie3.jpg" alt="Black Bouvier">
+        <img src="nosey.jpg" alt="Two bouvier butts">
+        <img src="ollie01.jpg" alt="Bouvier pup looking at camera">
+        <img src="ollielaugh.jpg" alt="Laughing puppy getting belly rubs">
+        <img src="olliepond.jpg" alt="bouvier puppies playing in shallow pond">
+        <hr>
+
+
+        <div id="formatted">
+            <h2>With 5px Padding, Border, and Margin</h2>
+            <img src="nessie3.jpg" alt="Black Bouvier">
+            <img src="nosey.jpg" alt="Two bouvier butts">
+            <img src="ollie01.jpg" alt="Bouvier pup looking at camera">
+            <img src="ollielaugh.jpg" alt="Laughing puppy getting belly rubs">
+            <img src="olliepond.jpg" alt="bouvier puppies playing in shallow pond">
+            <hr>
+        </div>
+
+        <div id="boxsize">
+            <h2>With 5px Padding, Border, and Margin box-sizing: border-box</h2>
+            <img src="nessie3.jpg" alt="Black Bouvier">
+            <img src="nosey.jpg" alt="Two bouvier butts">
+            <img src="ollie01.jpg" alt="Bouvier pup looking at camera">
+            <img src="ollielaugh.jpg" alt="Laughing puppy getting belly rubs">
+            <img src="olliepond.jpg" alt="bouvier puppies playing in shallow pond">
+            <hr>
+
+            <a href="#top">top</a>
+        </div>
+
+        <div id="list1">
+            <h2>Menu Lists</h2>
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+            </ul>
+        </div>
+
+        <div id="list2">
+            <h2>Menu Lists - inline block no bullet</h2>
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+            </ul>
+            <a href="#top">top</a>
+        </div>
+        <h2 id="divs">Div default layout</h2>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+
+        <h2>Div inline layout</h2>
+        <div class="box2"></div>
+        <div class="box2"></div>
+        <div class="box2"></div>
+        <div class="box2"></div>
+        <div class="box2"></div>
+
+        <h2>Div inline-box layout</h2>
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+
+    </div>
+    <a href="#top">top</a>
+</body>
+
+</html>
